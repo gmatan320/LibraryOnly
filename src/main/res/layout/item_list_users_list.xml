@@ -24,7 +24,6 @@
         android:layout_marginEnd="8dp"
         android:layout_marginTop="8dp"
         android:checked="true"
-        android:onClick="setIsChecked"
         android:text="Follow"
         android:textColorLink="@android:color/holo_green_dark"
         app:layout_constraintEnd_toEndOf="parent"

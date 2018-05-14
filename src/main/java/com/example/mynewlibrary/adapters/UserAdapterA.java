@@ -13,13 +13,13 @@ import com.example.mynewlibrary.objects.User;
 
 import java.util.ArrayList;
 
-public class UserAdapter extends BaseAdapter {
+public class UserAdapterA extends BaseAdapter {
     private Context mContext;
     private LayoutInflater mInflater;
     private ArrayList<User> mDataSource;
 
 
-    public UserAdapter(Context context, ArrayList<User> userArrayList) {
+    public UserAdapterA(Context context, ArrayList<User> userArrayList) {
         this.mContext = context;
         this.mDataSource = userArrayList;
         this.mInflater = (LayoutInflater) this.mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
